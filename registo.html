@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/registo.css" />
+    <title>Registo</title>
+</head>
+<body>
+    <div class="registo">
+        <div class="registo-box">
+            <div class="registo-header">
+                <span>Registo</span>
+            </div>
+            
+            <div class="input-box">
+                <form action="registo.php" method="POST">
+                    <input type="text" name="nome_utilizador" placeholder="Nome Utilizador" required />
+                    <input type="number" name="telefone" placeholder="Telefone" required />
+                    <input type="text" name="email" placeholder="Email" required />
+                    <input type="password" name="password" placeholder="Password" required />
+                    <input type="password" name="confimar-password" placeholder="Confirmar Password" required />
+                    <button type="submit" class="button_registar">Registar</button>
+                </form>
+            
+                <button type="button" onclick="window.location.href='index.php'">Voltar para o menu inicial</button>
+            </div>
+            
+        </div>
+
+        <div class="login">
+            <span>Já tens conta? <a href="login.html">Login</a></span>
+        </div>
+    </div>
+</body>
+</html>
