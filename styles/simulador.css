@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c59f25;
+    padding: 15px 28px;
+}
+
+.logo img {
+    height: 60px; 
+    width: auto;
+}
+
+
+.links {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+
+.links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+}
+
+.links li a:hover {
+    color: #ffcc00;
+}
+
+.container {
+    text-align: center;
+}
+
+.botao-login, .botao-logout {
+    background-color: #ffffff;
+    color: #c59f25;
+    border: none;
+    padding: 7px 20px;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.botao-login:hover, .botao-logout:hover {
+    background-color: #b28a1f;
+    transform: scale(1.05);
+}
+
+.layout {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 85vh;
+    overflow: hidden;
+}
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 20px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+
+.controls label {
+    font-weight: bold;
+    margin-top: 5x;
+    color: #333;
+}
+
+.controls select,
+.controls input[type="color"] {
+    padding: 10px;
+    border: 1px solid #c59f25;
+    border-radius: 5px;
+    font-size: 1em;
+}

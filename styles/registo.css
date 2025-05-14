@@ -1,0 +1,99 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.registo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.registo-box {
+    background-color: #f0eea8;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    text-align: center;
+}
+
+.registo-header span {
+    font-size: 2em;
+    color: #c59f25;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+.input-box input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.input-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.input-box button {
+    padding: 10px;
+    font-size: 1em;
+    background-color: #c59f25;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+}
+.input-box button_registar {
+    padding: 15px 20px;  /* Aumenta o tamanho do botão */
+    font-size: 1.2em;  /* Ajusta o tamanho da fonte */
+    background-color: #c59f25;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;  /* Faz o botão ocupar toda a largura */
+}
+
+.input-box button_registar:hover {
+    background-color: #b28a1f;
+}
+
+
+.input-box button:hover {
+    background-color: #b28a1f;
+}
+
+.login {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+.login a {
+    color: #c59f25;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
